@@ -217,7 +217,7 @@ const updateTransactionStatus = async (id, status) => {
 };
 
 /* ─── localStorage helpers ─── */
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx7nh8w2tETE5NPihwCxcf-I80jk_VkOKhwx3Uqju7UzPrs6jM51TO_m6Q7lZxVu3ti6w/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwZn5VJ-Tcyk3cQ-lf7ueJcHQHQ171lP6uh0yK7B55hLJVmmpT2iBbgJNrNq70hjccx0Q/exec';
 
 const DB = {
   get:(k,d=null) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
